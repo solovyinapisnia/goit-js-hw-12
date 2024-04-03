@@ -108,6 +108,7 @@ function checkBtnStatus() {
 function hideElemLoader() {
   elemLoader.classList.add('is-hidden');
 }
+
 function showElemLoader() {
   elemLoader.classList.remove('is-hidden');
 }
