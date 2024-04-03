@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-js-hw-12</title>
+    
+    <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-95dc692e.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-cf6910df.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-a1ac38c1.css">
+  </head>
+  <body>
+    <section>
+      <div class="top">
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            class="input-form"
+            autocomplete="off"
+            name="query"
+            placeholder="      search images..."
+          />
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+      </div>
+
+      <div>
+        <ul class="gallery"></ul>
+      </div>
+      <div class="bottom">
+        <button
+          type="submit"
+          class="load-more-btn is-hidden"
+          id="load-more-btn"
+        >
+          Load more
+        </button>
+        <div id="loader" class="loader is-hidden"></div>
+      </div>
+    </section>
+    
+  </body>
+</html>
